@@ -1,9 +1,7 @@
 {
     "title": "Jitescu, Ion 2016-12-11 to 2018-06-11",
-    "blocks": [
-        {
-            "title": "Card ICC identification",
-            "className": "CardIccIdentification",
+    "CardIccIdentification":
+    {
             "clockStop": 0,
             "cardExtendedSerialNumber": {
                 "title": "426082 (2015-11) RFU: 255, Gemalto AG (formerly TrÃ¼b AG)",
@@ -21,7 +19,8 @@
             "cardPersonaliserID": "21",
             "embedderIcAssemblerId": "30 37 36 35 00",
             "icIdentifier": "76 0c"
-        },
+    }
+    "blocks": [
         {
             "title": "Card chip identification",
             "className": "CardChipIdentification",
@@ -159,196 +158,38 @@
                         }
                     ]
                 },
-                {
-                    "title": "Activities on 2017-01-21",
-                    "className": "RawCardActivityDailyRecord",
-                    "activityRecordPreviousLength": "16 Bytes",
-                    "activityRecordLength": "100 Bytes",
-                    "activityRecordDate": {
-                        "title": "2017-01-21",
-                        "className": "TimeReal"
+                "RawCardActivityDailyRecords": [
+                    {
+                        "on": "2017-01-21",
+                        "activityRecordPreviousLength": "16 Bytes",
+                        "activityRecordLength": "100 Bytes",
+                        "activityRecordDate": {
+                            "title": "2017-01-21",
+                        },
+                        "activityPresenceCounter": 137,
+                        "activityDayDistance": "539 km",
+                        "records":
+                        [
+                            {
+                                "type":"unknown",
+                                "duration":"03:25 h"
+                            },
+                            {
+                                "type":"short break",
+                                "duration":"00:03 h"
+                            },
+                            {
+                                ...
+                            },
+                            ...
+                        ]
                     },
-                    "activityPresenceCounter": 137,
-                    "activityDayDistance": "539 km",
-                    "blocks": [
-                        {
-                            "title": "unknown for 03:25 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "short break for 00:03 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:01 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "work for 00:03 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:07 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "short break for 00:11 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:04 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "short break for 00:02 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:09 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "short break for 00:01 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "short break for 00:02 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 01:23 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "short break for 00:03 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:03 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "work for 00:05 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:01 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "work for 00:02 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:02 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "work for 00:02 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:02 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "work for 00:03 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "break/rest for 00:42 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:17 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "work for 00:02 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 01:18 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "work for 00:05 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:02 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "break/rest for 01:01 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 02:19 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "break/rest for 00:53 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:16 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "work for 00:04 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "driving for 00:04 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "unknown for 00:02 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "break/rest for 00:26 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "availability for 01:26 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "break/rest for 00:23 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "availability for 00:13 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "break/rest for 00:26 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "availability for 00:14 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "short break for 00:03 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "availability for 02:18 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "short break for 00:01 h",
-                            "className": "ActivityChangeInfo"
-                        },
-                        {
-                            "title": "unknown for 05:31 h",
-                            "className": "ActivityChangeInfo"
-                        }
-                    ]
-                },
+                    {
+
+                        "on": "2017-01-28",
+                        ...
+                    }
+                ]
                 {
                     "title": "Activities on 2017-01-28",
                     "className": "RawCardActivityDailyRecord",
@@ -22376,10 +22217,16 @@
                     },
                     "activityPresenceCounter": 364,
                     "activityDayDistance": "405 km",
+                    ActivityChangeInfo:[
+                        {
+                            type: "break/rest",
+                            duration:"05:02"
+                        }
+                    ]
                     "blocks": [
                         {
                             "title": "break/rest for 05:02 h",
-                            "className": "ActivityChangeInfo"
+                            "className": ""
                         },
                         {
                             "title": "driving for 00:01 h",
